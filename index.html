@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JavaScript Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./assets/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="page-title">JavaScript Quiz</h1>
+            <p>This quiz is timed quiz comprised of five questions. You have four minutes to complete the quiz. Be careful, a wrong answer will remove 20 seconds from the clock. When you are ready, start the quiz!</p>
+            <div class="start button">
+                <button class="btn" id="start-quiz" type="submit">Start Quiz</button>
+            </div>
+        </header>
+
+        <main class="quiz-wrapper">
+            <section class="question-wrapper">
+                <h2 class="question" id="quiz-question"></h2>
+                <ul class="answers" id="possible-answers"></ul>
+            </section>
+        </main>
+
+        <footer>
+            &copy;2021 by Teresa Sperl
+        </footer>
+
+        <script src="./assets/script.js"></script>
+    </body>
+</html>
