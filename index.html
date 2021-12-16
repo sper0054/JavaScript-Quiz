@@ -9,18 +9,29 @@
 
     <body>
         <header>
-            <h1 class="page-title">JavaScript Quiz</h1>
-            <p>This quiz is timed quiz comprised of five questions. You have four minutes to complete the quiz. Be careful, a wrong answer will remove 20 seconds from the clock. When you are ready, start the quiz!</p>
-            <div class="start button">
-                <button class="btn" id="start-quiz" type="submit">Start Quiz</button>
+            <div class="container">
+                <h1 id="high-score">View Highscores</h1>
+                <h2 id="timer">Time: 0</h2>
             </div>
         </header>
 
         <main class="quiz-wrapper">
+
+            <section class="quiz-introduction">
+                <h1 class="quiz-title">JavaScript Quiz</h1>
+                <p>This quiz is timed quiz comprised of five questions. You have four minutes to complete the quiz. Be careful, a wrong answer will remove 20 seconds from the clock.</p>
+                
+                <div class="start button">
+                    <button class="btn" id="start-quiz" type="submit">Start Quiz</button>
+                </div>
+
+            </section>
+
             <section class="question-wrapper">
                 <h2 class="question" id="quiz-question"></h2>
                 <ul class="answers" id="possible-answers"></ul>
             </section>
+            
         </main>
 
         <footer>
