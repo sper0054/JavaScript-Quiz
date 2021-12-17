@@ -9,27 +9,34 @@
 
     <body>
         <header>
-            <div class="container">
-                <h1 id="high-score">View Highscores</h1>
-                <h2 id="timer">Time: 0</h2>
-            </div>
+            <h1 class="highscores" id="high-score">View Highscores</h1>
+            <h1 class ="time" id="timer">Time: 0</h1>
         </header>
 
-        <main class="quiz-wrapper">
+        <main class="quiz">
 
             <section class="quiz-introduction">
                 <h1 class="quiz-title">JavaScript Quiz</h1>
-                <p>This quiz is timed quiz comprised of five questions. You have four minutes to complete the quiz. Be careful, a wrong answer will remove 20 seconds from the clock.</p>
+                <p>This is a timed quiz comprised of five questions. You have four minutes to complete the quiz. Be careful, a wrong answer will remove 20 seconds from the clock.</p>
                 
                 <div class="start button">
-                    <button class="btn" id="start-quiz" type="submit">Start Quiz</button>
+                    <button class="btn" id="start" type="submit">Start Quiz</button>
                 </div>
-
             </section>
 
-            <section class="question-wrapper">
+            <section class="question-section">
                 <h2 class="question" id="quiz-question"></h2>
-                <ul class="answers" id="possible-answers"></ul>
+                <ol class="answers" id="possible-answers"></ol>
+            </section>
+
+            <section class="finish">
+                <h2>Quiz Complete!</h2>
+                <h3 class=score id="score">Your score:</h3>
+                <form>
+                    <label for="initials">Enter initials:</label>
+                    <input type="text" placeholder="Your Initials" initials="initials" class="form-input" />
+                </form>
+
             </section>
             
         </main>
