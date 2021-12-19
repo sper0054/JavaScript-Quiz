@@ -26,16 +26,23 @@ header h1 {
     color:antiquewhite;
 }
 
-.quiz-introduction {
+.intro {
     text-align: center;
 }
 
-.question-section {
+.quiz {
     text-align: center;
+    
 }
 
-.finish {
+.results {
     text-align: center;
+    
+}
+
+.highscores {
+    text-align: center;
+    margin-bottom: 10%;
 }
 
 footer {
