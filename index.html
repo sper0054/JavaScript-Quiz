@@ -18,30 +18,18 @@
             <section class="intro">
                 <h1>JavaScript Quiz</h1>
                 <p>This is a timed quiz comprised of five questions. You have four minutes to complete the quiz. Be careful, a wrong answer will remove 20 seconds from the clock.</p>
-                <button class="btn" id="start">Start Quiz</button>
+                <button class="btn" id="startquiz">Start Quiz</button>
             </section>
 
             <section class="quiz">
-                <h2 id="quizquestion"></h2>
-                <div id="possibleanswers"></div>
-                <div id="answer"></div>
+                <div class = "button-container"></div>
             </section>
 
             <section class="results">
-                <h2>Quiz Complete!</h2>
-                <p class="score" id="score"></p>
-                <form>
-                    <label for="initials">Enter 3 initials:</label>
-                    <input type="text" placeholder="Your Initials" initials="initials" class="form-input" maxlength="3"/>
-                </form>
-                <button class="btn" id="save">Save</button>
             </section>
 
             <section class="highscores">
                 <h2>High Scores</h2>
-                <ol id="highscoreslist"></ol>
-                <button class="btn" id="return">Return to Quiz</button>
-                <button class="btn" id="clear">Clear all scores</button>
             </section>
             
         </main>
