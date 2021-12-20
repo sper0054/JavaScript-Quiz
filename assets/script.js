@@ -92,7 +92,6 @@ var questionAnswered = function (event) {
 }
 
 var endGame = function () {
-    //add and remove elements
     pageContentEl.removeChild(quizPageEl);
 
     var resultsPageTitleEl = document.createElement("h1");
@@ -140,7 +139,6 @@ var highScoreSubmit = function() {
 
 //highscores
 var loadHighScoresPage = function () {
-    //add and remove elements 
     headerEl.remove();
     
     var highscoreTitleEl = document.createElement("h1");
@@ -180,15 +178,11 @@ var buttonsFunction = function (event) {
         window.location.href = './index.html';
     }
 
-    // if clear high scores button was pushed
+    // if clear button was pushed
     else {
-        // remove high scores
+        
         localStorage.removeItem("highscores");
-
-        // remove current list w/ high scores
         highscorePageEl.removeChild(highscoreListEl);
-
-        // create new ul to show empty list now that scores are erased
         var emptyList = document.createElement("ul")
         var emptyListItem = document.createElement("li")
         emptyListItem.textContent = "No data to show.";
@@ -197,8 +191,6 @@ var buttonsFunction = function (event) {
 
     }
 }
-
-
 
 //Quiz Questions and Answers
 var quizquestions= [
