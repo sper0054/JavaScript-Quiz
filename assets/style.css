@@ -2,6 +2,7 @@
      margin: 2;
      padding: 4; 
      box-sizing: border-box;
+     list-style-type: none;
 }
 
 body {
