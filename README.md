@@ -10,10 +10,10 @@ When you click Start Quiz, the clock will begin counting down from 100 and you w
 * JavaScript
 
 ## Screen Shots
-![Password-Generator screen shot](https://github.com/sper0054/Password-Generator/blob/main/Screen%20Shot%202021-12-14%20at%202.48.10%20PM.png)
+![JavaScript-Quiz tutorial](https://github.com/sper0054/Password-Generator/blob/main/Screen%20Shot%202021-12-14%20at%202.48.10%20PM.png)
 
 ## Links
-[Password-Generator website](https://sper0054.github.io/Password-Generator/)
+[JavaScript-Quiz website](https://sper0054.github.io/JavaScript-Quiz/)
 
 ## Acknowledgments
 This is the week 4 challenge project of Michigan St. full-stack web development coding bootcamp.
