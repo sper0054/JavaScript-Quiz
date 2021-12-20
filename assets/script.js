@@ -37,8 +37,6 @@ clearHighscoresBtnEl.className= "btn highscore-btn";
 clearHighscoresBtnEl.textContent = "Clear Highscores";
 
 
-
-
 // start quiz on button click, hide intro, start timer, see first question with possible answers
 var startQuiz = function() {
     pageContentEl.removeChild(introPageEl);
@@ -179,10 +177,9 @@ var buttonsFunction = function (event) {
 
     // if retry button was clicked
     if (buttonClicked.textContent === "Retry") {
-        pageContentEl.removeChild(highscorePageEl);
-        pageContentEl.appendChild(introPageEl);
-        return;
+        window.location.href = './index.html';
     }
+
     // if clear high scores button was pushed
     else {
         // remove high scores
@@ -200,6 +197,8 @@ var buttonsFunction = function (event) {
 
     }
 }
+
+
 
 //Quiz Questions and Answers
 var quizquestions= [
